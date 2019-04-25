@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Survey</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Survey Questions</h1>
+                <h2>About You</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nameInput">Name(required)</label>
+                        <input type="text" class="form-control" id="nameInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="photoInput">Photo URL(required)</label>
+                        <input type="text" class="form-control" id="photoInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="question1">Game of Thrones is the best show ever created!</label>
+                        <select class="form-control" id="question1">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question2">Magic the gathering is the greatest game ever created!</label>
+                        <select class="form-control" id="question2">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question3">Coding is fun!</label>
+                        <select class="form-control" id="question3">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question4">Beer is good!</label>
+                        <select class="form-control" id="question4">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question5">I like learning!</label>
+                        <select class="form-control" id="question5">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question6">Audio books are a great alternative to print!</label>
+                        <select class="form-control" id="question6">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question7">Anime is better than american tv (except game of thrones)!</label>
+                        <select class="form-control" id="question7">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question8">Game night is a great way to hang out with friends!</label>
+                        <select class="form-control" id="question8">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question9">Vacations are better than stuff!</label>
+                        <select class="form-control" id="question9">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question10">I need coffee in the morning!</label>
+                        <select class="form-control" id="question10">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2" id="submitSurvey" data-toggle="modal" data-target="#friendModal">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="friendModal" tabindex="-1" role="dialog" aria-labelledby="friendModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="friendModalLabel">Suggested Friend</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p id="friendModalFriendName"></p>
+                <img id="friendModalFriendPhoto">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Add Friend</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $("#submitSurvey").on("click", function(event){
+        event.preventDefault()
+        var surveyRes = {
+            name: $("#nameInput").val().trim(),
+            photo: $("#photoInput").val().trim(),
+            surveyQuestions: [ 
+                $("#question1").val(),
+                $("#question2").val(),
+                $("#question3").val(),
+                $("#question4").val(),
+                $("#question5").val(),
+                $("#question6").val(),
+                $("#question7").val(),
+                $("#question8").val(),
+                $("#question9").val(),
+                $("#question10").val(),]
+        }
+        $.post("/api/friends", surveyRes, function(){
+        }).then(
+            $.get("/api/friends", function(data){
+                console.log(data)
+                var finalDifference = []
+                var difference = 0
+                for(var i=0 ; i < data.length - 1 ; i++){
+                    difference = 0
+                    for(var j=0 ; j <data[i].surveyQuestions.length; j++){
+                        difference += Math.abs(parseInt(surveyRes.surveyQuestions[j][0]) - parseInt(data[i].surveyQuestions[j][0]))
+                    }
+                    finalDifference.push(difference)
+                }
+                console.log(finalDifference)
+                var closestFriend = Math.min(...finalDifference)
+                console.log(closestFriend)
+                var index = finalDifference.findIndex(x => x=== closestFriend)
+                console.log(index)
+                console.log(data[index])
+                $("#friendModalFriendName").text(data[index].name)
+                $("#friendModalFriendPhoto").attr("src", data[index].photo)
+            })
+        )
+    })
+</script>
